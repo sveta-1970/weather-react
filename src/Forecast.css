@@ -1,0 +1,22 @@
+.weather-forecast > div {
+  padding: 0;
+}
+
+.weather-forecast-date,
+.weather-forecast-temperature {
+  text-align: center;
+  line-height: 32px;
+  margin-bottom: 0;
+  color: #f8f59b;
+}
+.weather-forecast-temperature-max {
+  font-weight: bold;
+}
+
+.weather-forecast-icon {
+  margin-bottom: 0;
+  text-align: center;
+}
+.weather-forecast-icon img {
+  width: 80px;
+}
