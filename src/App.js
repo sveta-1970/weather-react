@@ -6,7 +6,7 @@ import Forecast from "./Forecast";
 import Footer from "./Footer";
 import background from "./images/background.jpg";
 
-function App() {
+export default function App() {
   return (
     <div className="App" style={{ backgroundImage: `url(${background})` }}>
       <div className="app-outside-body">
@@ -20,5 +20,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
