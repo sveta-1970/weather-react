@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <small>
       <a
-        href="https://github.com/sveta-1970/my-weather-app"
+        href="https://github.com/sveta-1970/weather-react"
         target="_blank"
         rel="noreferrer"
       >
