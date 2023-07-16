@@ -1,0 +1,37 @@
+.weather-search-form {
+  padding-left: 15px;
+}
+
+[placeholder] {
+  font-size: 14px;
+  padding-left: 15px;
+}
+.type-city {
+  border-radius: 30px;
+  border: none;
+  width: 100%;
+  line-height: 40px;
+}
+
+.search-icon {
+  font-size: 32px;
+  margin: 6px 0;
+  color: #f8f59b;
+}
+
+.button-form,
+.button-current {
+  background: transparent;
+  border: none;
+}
+
+.weather-search-form div:nth-child(1) {
+  padding: 0;
+}
+
+.weather-search-form div:nth-child(2) {
+  text-align: right;
+}
+.weather-search-form div:nth-child(3) {
+  text-align: center;
+}
