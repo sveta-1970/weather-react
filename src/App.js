@@ -1,5 +1,10 @@
 import React from "react";
 import "./App.css";
+import Search from "./Search";
+import Today from "./Today";
+import Forecast from "./Forecast";
+import Footer from "./Footer";
+import background from "./images/background.jpg";
 
 function App() {
   return (
