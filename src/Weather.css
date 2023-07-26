@@ -1,19 +1,19 @@
 .Weather {
-  border: 1px solid #5669de;
+  border: 1px solid var(--secondary-color);
   font-family: Arial, sans-serif;
   padding: 16px;
   border-radius: 10px;
-  color: #f8f59b;
-  background-color: rgba(78, 154, 182, 0.8);
+  color: var(--color);
+  background-color: var(--secondary-color);
 }
 
-.Weather button{
+.Weather button {
   border: none;
-  background-color: rgba(78, 154, 182, 0.8);
-   color: #f8f59b;
+  background-color: var(--secondary-color);
+  color: var(--color);
 }
 
-.Weather .search-icon{
+.Weather .search-icon {
   font-size: 30px;
 }
 
@@ -46,19 +46,15 @@
 .Weather .temperature {
   font-weight: 400;
   font-size: 64px;
-  color: #f8f59b;
+  color: var(--color);
   line-height: 64px;
 }
 
 .Weather .unit {
-  color: #f8f59b;
+  color: var(--color);
   font-size: 16px;
   font-weight: 400;
   position: relative;
   top: -34px;
   line-height: 1;
-}
-
-.Weather .unit a:active {
-  color: rgb(44, 53, 139);
 }
