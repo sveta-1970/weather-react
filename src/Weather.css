@@ -58,3 +58,7 @@
   top: -34px;
   line-height: 1;
 }
+
+.WeatherTemperature a:link {
+  color: orangered;
+}
