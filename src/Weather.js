@@ -44,6 +44,7 @@ export default function Weather(props) {
   }
 
   function searchLocation(position) {
+    console.log(position);
     let apiKey = "52b789a53d83895c9bd9e318a67b4fa8";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
@@ -91,7 +92,7 @@ export default function Weather(props) {
         height="80"
         width="80"
         radius="9"
-        color="rgb(250, 232, 70)"
+        color="rgb(252, 225, 104)"
         ariaLabel="three-dots-loading"
         wrapperStyle={{}}
         wrapperClassName=""

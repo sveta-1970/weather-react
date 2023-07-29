@@ -36,6 +36,10 @@
   list-style: none;
 }
 
+.Weather .row {
+  margin: 15px 0;
+}
+
 .Weather .float {
   float: left;
   margin-right: 10px;
