@@ -36,9 +36,7 @@
   list-style: none;
 }
 
-.Weather canvas {
-  width: 64px;
-  height: 64px;
+.Weather .float {
   float: left;
   margin-right: 10px;
 }
@@ -57,8 +55,4 @@
   position: relative;
   top: -34px;
   line-height: 1;
-}
-
-.WeatherTemperature a:link {
-  color: orangered;
 }

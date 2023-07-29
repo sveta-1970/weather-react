@@ -22,7 +22,7 @@ export default function App() {
             rel="noreferrer"
           >
             open-sourced on GitHub
-          </a>
+          </a>{" "}
           and{" "}
           <a
             href="https://ornate-meerkat-63f145.netlify.app/"
