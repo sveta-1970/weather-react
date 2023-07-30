@@ -1,6 +1,6 @@
 .App {
   max-width: 600px;
-  margin: 40px auto;
+  margin: 45px auto;
   --secondary-color: rgb(22, 75, 124);
   --color: rgb(252, 225, 104);
 }

@@ -16,6 +16,9 @@
 .Weather .search-icon {
   font-size: 30px;
 }
+.Weather .main {
+  margin-left: 10px;
+}
 
 .Weather h1 {
   font-size: 24px;
